@@ -1,12 +1,22 @@
 [
     {
-        "title": "New Note",
+        "title": "New note",
         "text": "This is a new note",
-        "noteId": "0ee5"
+        "id": "03b9"
     },
     {
         "title": "Another note",
         "text": "This is another note",
-        "noteId": "b876"
+        "id": "c101"
+    },
+    {
+        "title": "Note #3",
+        "text": "This is the third note",
+        "id": "b236"
+    },
+    {
+        "title": "Note #4",
+        "text": "This is the fourth note",
+        "id": "0a9d"
     }
 ]

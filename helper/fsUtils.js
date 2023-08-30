@@ -26,10 +26,10 @@ const readAndDelete = (note_id, file) => {
             console.error(err)
         } else {
             const parsedData = JSON.parse(data);
-            parsedData = parsedData.filter(note => note.noteId != this.noteId)
+            parsedData.pop();
             writeToFile(file, parsedData)
         }
-    })
-}
+    });
+};
 
 module.exports = { readAndAppend, writeToFile, readFromFile, readAndDelete };
