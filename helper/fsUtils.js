@@ -20,13 +20,13 @@ const readAndAppend = (content, file) => {
     });
 };
 
-const readAndDelete = (note_id, file) => {
+const readAndDelete = (content, file) => {
     fs.readFile(file, 'utf-8', (err, data) => {
         if (err) {
             console.error(err)
         } else {
-            const parsedData = JSON.parse(data);
-            parsedData.pop();
+            let parsedData = JSON.parse(data);
+            parsedData = parsedData.filter((note) => note.id !== content)
             writeToFile(file, parsedData)
         }
     });
