@@ -26,6 +26,7 @@ notes.post('/', (req, res) => {
 
 notes.delete('/:id', (req, res) => {
     console.log('delete', req.params.id)
+    console.table(data)
     
 });
 
