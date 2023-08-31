@@ -1,12 +1,17 @@
 [
     {
-        "title": "sghs",
-        "text": "dgfhjsdgfj",
-        "id": "2f27"
+        "title": "Delete Me",
+        "text": "This is a new note. Press the delete button to get rid of me.",
+        "id": "c291"
     },
     {
-        "title": "sgjsfgjsfg",
-        "text": "jsfgjsfgj",
-        "id": "a244"
+        "title": "New Note",
+        "text": "This is a new note",
+        "id": "e51b"
+    },
+    {
+        "title": "Another Note",
+        "text": "This is another note.",
+        "id": "c9bf"
     }
 ]
